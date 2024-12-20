@@ -141,7 +141,7 @@ app.put('/readers/:id', (req, res) => {
  */
 app.delete('/readers/:id', (req, res) => {
   readers = readers.filter(r => r.id != req.params.id);
-  res.send({ message: 'Reader deleted' });
+  res.send({ message: 'Reader Deleted' });
 });
 
 // CRUD для книг
